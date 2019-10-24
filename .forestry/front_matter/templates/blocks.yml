@@ -1,4 +1,12 @@
 ---
 label: Blocks
 hide_body: false
-fields: []
+fields:
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - accordion
+  config:
+    min: 
+    max: 
