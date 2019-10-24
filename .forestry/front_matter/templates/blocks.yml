@@ -6,6 +6,7 @@ fields:
   type: blocks
   label: Blocks
   template_types:
+  - full-width-content
   - accordion
   config:
     min: 
