@@ -1,0 +1,13 @@
+---
+label: Blocks
+hide_body: false
+fields:
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - full-width-content
+  - accordion
+  config:
+    min: 
+    max: 

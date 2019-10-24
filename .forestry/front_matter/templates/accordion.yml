@@ -1,0 +1,31 @@
+---
+label: Accordion
+hide_body: false
+fields:
+- name: label
+  type: text
+  config:
+    required: true
+  label: Label
+- name: options
+  type: field_group_list
+  fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: message
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Message
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Options
